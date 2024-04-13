@@ -2,7 +2,9 @@ from datetime import datetime
 
 from db import PostgresDB
 from db.models import Offer
-from db.repository import CategoryRepository, ShopRepository, BankRepository
+from db.repository.bank import BankRepository
+from db.repository.category import CategoryRepository
+from db.repository.shop import ShopRepository
 from dto import OfferDTO
 
 
