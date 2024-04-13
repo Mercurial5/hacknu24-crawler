@@ -1,0 +1,88 @@
+[
+    {
+        "categoryName": "Техника",
+        "categoryId": "1391",
+        "merchants": [
+            {
+                "id": "ALSER",
+                "name": "Алсер"
+            }
+        ]
+    },
+    {
+        "category": "Home equipment",
+        "merchants": []
+    },
+    {
+        "category": "TV_Audio",
+        "merchants": []
+    },
+    {
+        "category": "Computers",
+        "merchants": []
+    },
+    {
+        "category": "Furniture",
+        "merchants": []
+    },
+    {
+        "category": "Beauty care",
+        "merchants": []
+    },
+    {
+        "category": "Child goods",
+        "merchants": []
+    },
+    {
+        "category": "Pharmacy",
+        "merchants": []
+    },
+    {
+        "category": "Construction and repair",
+        "merchants": []
+    },
+    {
+        "category": "Sports and outdoors",
+        "merchants": []
+    },
+    {
+        "category": "Leisure",
+        "merchants": []
+    },
+    {
+        "category": "Car goods",
+        "merchants": []
+    },
+    {
+        "category": "Jewelry and Bijouterie",
+        "merchants": []
+    },
+    {
+        "category": "Fashion accessories",
+        "merchants": []
+    },
+    {
+        "category": "Fashion",
+        "merchants": []
+    },
+    {
+        "category": "Shoes",
+        "merchants": []
+    },
+    {
+        "category": "Home",
+        "merchants": []
+    },
+    {
+        "category": "Pet goods",
+        "merchants": []
+    },
+    {
+        "category": "Gifts and party supplies",
+        "merchants": []
+    },
+    {
+        "category": "Office and school supplies",
+        "merchants": []
+    }
+]

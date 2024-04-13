@@ -1,6 +1,6 @@
 import json
 
-from crawler import KaspiCrawler, HalykCrawler
+from crawler import KaspiCrawler, HalykCrawler, JusanCrawler
 from db import PostgresDB, PostgresConfigs
 from db.repository import OfferRepository, CategoryRepository, ShopRepository, BankRepository
 
@@ -12,13 +12,17 @@ def main():
     with open('rules/halyk.json') as file:
         halyk_rules = json.load(file)
 
+    with open('rules/jusan.json') as file:
+        jusan_rules = json.load(file)
+
     kaspi_crawler = KaspiCrawler()
     offers = list(kaspi_crawler.get_offers(kaspi_rules))
 
     halyk_crawler = HalykCrawler()
     offers.extend(halyk_crawler.get_offers(halyk_rules))
 
-    print(offers)
+    jusan_crawler = JusanCrawler()
+    offers = list(jusan_crawler.get_offers(jusan_rules))
 
     postgres_configs = PostgresConfigs.from_environ()
     db = PostgresDB(postgres_configs)
@@ -30,7 +34,7 @@ def main():
     offer_repository = OfferRepository(db, category_repository, shop_repository, bank_repository)
     for offer in offers:
         offer_repository.create_or_update_offer(offer)
-
+    print('Done')
 
 if __name__ == '__main__':
     main()
