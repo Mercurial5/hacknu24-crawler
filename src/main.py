@@ -2,7 +2,7 @@ import json
 
 from crawler import KaspiCrawler, HalykCrawler
 from db import PostgresDB, PostgresConfigs
-from db.repository import OfferRepository
+from db.repository import OfferRepository, CategoryRepository, ShopRepository, BankRepository
 
 
 def main():
@@ -22,7 +22,12 @@ def main():
 
     postgres_configs = PostgresConfigs.from_environ()
     db = PostgresDB(postgres_configs)
-    offer_repository = OfferRepository(db)
+
+    category_repository = CategoryRepository(db)
+    shop_repository = ShopRepository(db)
+    bank_repository = BankRepository(db)
+
+    offer_repository = OfferRepository(db, category_repository, shop_repository, bank_repository)
     for offer in offers:
         offer_repository.create_or_update_offer(offer)
 
