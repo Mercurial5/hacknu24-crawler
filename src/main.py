@@ -6,6 +6,15 @@ from db.repository import OfferRepository, CategoryRepository, ShopRepository, B
 
 
 def main():
+    postgres_configs = PostgresConfigs.from_environ()
+    db = PostgresDB(postgres_configs)
+
+    category_repository = CategoryRepository(db)
+    shop_repository = ShopRepository(db)
+    bank_repository = BankRepository(db)
+
+    offer_repository = OfferRepository(db, category_repository, shop_repository, bank_repository)
+
     with open('rules/kaspi.json') as file:
         kaspi_rules = json.load(file)
 
@@ -16,23 +25,15 @@ def main():
         jusan_rules = json.load(file)
 
     kaspi_crawler = KaspiCrawler()
-    offers = list(kaspi_crawler.get_offers(kaspi_rules))
+    for offer in kaspi_crawler.get_offers(kaspi_rules):
+        offer_repository.create_or_update_offer(offer)
 
     halyk_crawler = HalykCrawler()
-    offers.extend(halyk_crawler.get_offers(halyk_rules))
+    for offer in halyk_crawler.get_offers(halyk_rules):
+        offer_repository.create_or_update_offer(offer)
 
     jusan_crawler = JusanCrawler()
-    offers = list(jusan_crawler.get_offers(jusan_rules))
-
-    postgres_configs = PostgresConfigs.from_environ()
-    db = PostgresDB(postgres_configs)
-
-    category_repository = CategoryRepository(db)
-    shop_repository = ShopRepository(db)
-    bank_repository = BankRepository(db)
-
-    offer_repository = OfferRepository(db, category_repository, shop_repository, bank_repository)
-    for offer in offers:
+    for offer in jusan_crawler.get_offers(jusan_rules):
         offer_repository.create_or_update_offer(offer)
 
 

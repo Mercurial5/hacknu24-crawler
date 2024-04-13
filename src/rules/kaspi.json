@@ -1,88 +1,242 @@
 [
-    {
-        "categoryName": "Техника",
-        "categoryId": "Smartphones and gadgets",
-        "merchants": [
-            {
-                "id": "GulserComputers",
-                "name": "Алсер"
-            }
-        ]
-    },
-    {
-        "category": "Home equipment",
-        "merchants": []
-    },
-    {
-        "category": "TV_Audio",
-        "merchants": []
-    },
-    {
-        "category": "Computers",
-        "merchants": []
-    },
-    {
-        "category": "Furniture",
-        "merchants": []
-    },
-    {
-        "category": "Beauty care",
-        "merchants": []
-    },
-    {
-        "category": "Child goods",
-        "merchants": []
-    },
-    {
-        "category": "Pharmacy",
-        "merchants": []
-    },
-    {
-        "category": "Construction and repair",
-        "merchants": []
-    },
-    {
-        "category": "Sports and outdoors",
-        "merchants": []
-    },
-    {
-        "category": "Leisure",
-        "merchants": []
-    },
-    {
-        "category": "Car goods",
-        "merchants": []
-    },
-    {
-        "category": "Jewelry and Bijouterie",
-        "merchants": []
-    },
-    {
-        "category": "Fashion accessories",
-        "merchants": []
-    },
-    {
-        "category": "Fashion",
-        "merchants": []
-    },
-    {
-        "category": "Shoes",
-        "merchants": []
-    },
-    {
-        "category": "Home",
-        "merchants": []
-    },
-    {
-        "category": "Pet goods",
-        "merchants": []
-    },
-    {
-        "category": "Gifts and party supplies",
-        "merchants": []
-    },
-    {
-        "category": "Office and school supplies",
-        "merchants": []
-    }
+  {
+    "categoryName": "Home equipment",
+    "categoryId": "Home equipment",
+    "merchants": [
+      {
+        "name": "1kz",
+        "id": ":allMerchants:001KZ"
+      },
+      {
+        "name": "2people",
+        "id": ":allMerchants:18681075"
+      },
+      {
+        "name": "alser",
+        "id": ":allMerchants:GulserComputers"
+      },
+      {
+        "name": "desiredmarket",
+        "id": ":allMerchants:6887007"
+      },
+      {
+        "name": "kazit component",
+        "id": ":allMerchants:484028"
+      },
+      {
+        "name": "leadbros",
+        "id": ":allMerchants:LeadPartners"
+      },
+      {
+        "name": "mega network",
+        "id": ":allMerchants:11202010"
+      },
+      {
+        "name": "qpick",
+        "id": ":allMerchants:16033005"
+      },
+      {
+        "name": "qural-saiman",
+        "id": ":allMerchants:Tiin"
+      },
+      {
+        "name": "redmart",
+        "id": ":allMerchants:TechGroup"
+      },
+      {
+        "name": "rino-kz",
+        "id": ":allMerchants:43033"
+      },
+      {
+        "name": "satel",
+        "id": ":allMerchants:Satel"
+      },
+      {
+        "name": "smartlife",
+        "id": ":allMerchants:6283004"
+      },
+      {
+        "name": "telenova",
+        "id": ":allMerchants:TeleNova"
+      },
+      {
+        "name": "xiaomi store official",
+        "id": ":allMerchants:VENDER"
+      },
+      {
+        "name": "ип master support",
+        "id": ":allMerchants:18313675"
+      },
+      {
+        "name": "ип абилкасим",
+        "id": ":allMerchants:13984004"
+      },
+      {
+        "name": "казахтелеком магазин",
+        "id": ":allMerchants:Chocomart"
+      },
+      {
+        "name": "планета электроники",
+        "id": ":allMerchants:Planeta"
+      },
+      {
+        "name": "приоль",
+        "id": ":allMerchants:6707010"
+      },
+      {
+        "name": "техноgrad",
+        "id": ":allMerchants:TEHG"
+      },
+      {
+        "name": "торговый дом тиын",
+        "id": ":allMerchants:Tiyn"
+      }
+    ]
+  },
+  {
+    "categoryName": "Pharmacy",
+    "categoryId": "Pharmacy",
+    "merchants": [
+      {
+        "name": "jt global",
+        "id": ":allMerchants:5041002"
+      },
+      {
+        "name": "uyatemes",
+        "id": ":allMerchants:9024018"
+      },
+      {
+        "name": "медсервис",
+        "id": ":allMerchants:12432125"
+      }
+    ]
+  },
+  {
+    "categoryName": "Leisure",
+    "categoryId": "Leisure",
+    "merchants": [
+      {
+        "name": "kitapal",
+        "id": ":allMerchants:1022028"
+      },
+      {
+        "name": "мир увлечений ",
+        "id": ":allMerchants:12394047"
+      },
+      {
+        "name": "планета игр",
+        "id": ":allMerchants:403008"
+      }
+    ]
+  },
+  {
+    "categoryName": "Car goods",
+    "categoryId": "Car goods",
+    "merchants": [
+      {
+        "name": "1kz",
+        "id": ":allMerchants:001KZ"
+      },
+      {
+        "name": "alser",
+        "id": ":allMerchants:GulserComputers"
+      },
+      {
+        "name": "ams",
+        "id": ":allMerchants:Incar"
+      },
+      {
+        "name": "avtozvuk_almaty",
+        "id": ":allMerchants:AvtozvukAlmaty"
+      },
+      {
+        "name": "formula 7",
+        "id": ":allMerchants:Formula7"
+      },
+      {
+        "name": "tuningoff",
+        "id": ":allMerchants:8975004"
+      },
+      {
+        "name": "udm",
+        "id": ":allMerchants:Udm"
+      },
+      {
+        "name": "бакорда",
+        "id": ":allMerchants:8941064"
+      },
+      {
+        "name": "фирменный центр starline",
+        "id": ":allMerchants:Starline"
+      },
+      {
+        "name": "центр багажных систем",
+        "id": ":allMerchants:Autoboks"
+      }
+    ]
+  },
+  {
+    "categoryName": "Fashion",
+    "categoryId": "Fashion",
+    "merchants": [
+      {
+        "name": "jt global",
+        "id": ":allMerchants:5041002"
+      },
+      {
+        "name": "orchestra",
+        "id": ":allMerchants:Orchestra"
+      }
+    ]
+  },
+  {
+    "categoryName": "Pet goods",
+    "categoryId": "Pet goods",
+    "merchants": [
+      {
+        "name": "1kz",
+        "id": ":allMerchants:001KZ"
+      },
+      {
+        "name": "brandcube",
+        "id": ":allMerchants:12459081"
+      }
+    ]
+  },
+  {
+    "categoryName": "Gifts and party supplies",
+    "categoryId": "Gifts and party supplies",
+    "merchants": [
+      {
+        "name": "1000velo",
+        "id": ":allMerchants:5557008"
+      }
+    ]
+  },
+  {
+    "categoryName": "Office and school supplies",
+    "categoryId": "Office and school supplies",
+    "merchants": [
+      {
+        "name": "1kz",
+        "id": ":allMerchants:001KZ"
+      },
+      {
+        "name": "altor",
+        "id": ":allMerchants:Altynorda"
+      },
+      {
+        "name": "casio g-factory",
+        "id": ":allMerchants:Casio"
+      },
+      {
+        "name": "qural-saiman",
+        "id": ":allMerchants:Tiin"
+      },
+      {
+        "name": "торговый дом тиын",
+        "id": ":allMerchants:Tiyn"
+      }
+    ]
+  }
 ]
