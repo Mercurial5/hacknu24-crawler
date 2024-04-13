@@ -1,0 +1,12 @@
+[
+    {
+        "categoryName": "Техника",
+        "categoryId": "1",
+        "merchants": [
+            {
+                "name": "Алсер",
+                "id": "ALSER.kz"
+            }
+        ]
+    }
+]
