@@ -6,83 +6,87 @@
             {
                 "id": "GulserComputers",
                 "name": "Алсер"
+            },
+            {
+                "id": "Sulpak",
+                "name": "Сулпак"
             }
         ]
     },
     {
-        "category": "Home equipment",
+        "categoryId": "Home equipment",
         "merchants": []
     },
     {
-        "category": "TV_Audio",
+        "categoryId": "TV_Audio",
         "merchants": []
     },
     {
-        "category": "Computers",
+        "categoryId": "Computers",
         "merchants": []
     },
     {
-        "category": "Furniture",
+        "categoryId": "Furniture",
         "merchants": []
     },
     {
-        "category": "Beauty care",
+        "categoryId": "Beauty care",
         "merchants": []
     },
     {
-        "category": "Child goods",
+        "categoryId": "Child goods",
         "merchants": []
     },
     {
-        "category": "Pharmacy",
+        "categoryId": "Pharmacy",
         "merchants": []
     },
     {
-        "category": "Construction and repair",
+        "categoryId": "Construction and repair",
         "merchants": []
     },
     {
-        "category": "Sports and outdoors",
+        "categoryId": "Sports and outdoors",
         "merchants": []
     },
     {
-        "category": "Leisure",
+        "categoryId": "Leisure",
         "merchants": []
     },
     {
-        "category": "Car goods",
+        "categoryId": "Car goods",
         "merchants": []
     },
     {
-        "category": "Jewelry and Bijouterie",
+        "categoryId": "Jewelry and Bijouterie",
         "merchants": []
     },
     {
-        "category": "Fashion accessories",
+        "categoryId": "Fashion accessories",
         "merchants": []
     },
     {
-        "category": "Fashion",
+        "categoryId": "Fashion",
         "merchants": []
     },
     {
-        "category": "Shoes",
+        "categoryId": "Shoes",
         "merchants": []
     },
     {
-        "category": "Home",
+        "categoryId": "Home",
         "merchants": []
     },
     {
-        "category": "Pet goods",
+        "categoryId": "Pet goods",
         "merchants": []
     },
     {
-        "category": "Gifts and party supplies",
+        "categoryId": "Gifts and party supplies",
         "merchants": []
     },
     {
-        "category": "Office and school supplies",
+        "categoryId": "Office and school supplies",
         "merchants": []
     }
 ]
