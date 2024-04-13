@@ -34,7 +34,7 @@ def main():
     offer_repository = OfferRepository(db, category_repository, shop_repository, bank_repository)
     for offer in offers:
         offer_repository.create_or_update_offer(offer)
-    print('Done')
+
 
 if __name__ == '__main__':
     main()
