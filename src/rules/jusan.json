@@ -1,88 +1,450 @@
 [
-    {
-        "categoryName": "Техника",
-        "categoryId": "1391",
-        "merchants": [
-            {
-                "id": "ALSER",
-                "name": "Алсер"
-            }
-        ]
-    },
-    {
-        "category": "Home equipment",
-        "merchants": []
-    },
-    {
-        "category": "TV_Audio",
-        "merchants": []
-    },
-    {
-        "category": "Computers",
-        "merchants": []
-    },
-    {
-        "category": "Furniture",
-        "merchants": []
-    },
-    {
-        "category": "Beauty care",
-        "merchants": []
-    },
-    {
-        "category": "Child goods",
-        "merchants": []
-    },
-    {
-        "category": "Pharmacy",
-        "merchants": []
-    },
-    {
-        "category": "Construction and repair",
-        "merchants": []
-    },
-    {
-        "category": "Sports and outdoors",
-        "merchants": []
-    },
-    {
-        "category": "Leisure",
-        "merchants": []
-    },
-    {
-        "category": "Car goods",
-        "merchants": []
-    },
-    {
-        "category": "Jewelry and Bijouterie",
-        "merchants": []
-    },
-    {
-        "category": "Fashion accessories",
-        "merchants": []
-    },
-    {
-        "category": "Fashion",
-        "merchants": []
-    },
-    {
-        "category": "Shoes",
-        "merchants": []
-    },
-    {
-        "category": "Home",
-        "merchants": []
-    },
-    {
-        "category": "Pet goods",
-        "merchants": []
-    },
-    {
-        "category": "Gifts and party supplies",
-        "merchants": []
-    },
-    {
-        "category": "Office and school supplies",
-        "merchants": []
-    }
+  {
+    "categoryName": "Детский мир",
+    "categoryId": "2889",
+    "merchants": [
+      {
+        "name": "alser",
+        "id": "650"
+      },
+      {
+        "name": "kidskare",
+        "id": "332387"
+      },
+      {
+        "name": "1kz",
+        "id": "746"
+      },
+      {
+        "name": "iq balaqay",
+        "id": "315182"
+      },
+      {
+        "name": "gress",
+        "id": "306942"
+      },
+      {
+        "name": "ип мухирдинова",
+        "id": "323755"
+      }
+    ]
+  },
+  {
+    "categoryName": "Дом и сад",
+    "categoryId": "1062",
+    "merchants": [
+      {
+        "name": "торговый дом тиын",
+        "id": "1917"
+      },
+      {
+        "name": "1kz",
+        "id": "746"
+      },
+      {
+        "name": "qural-saiman",
+        "id": "718"
+      },
+      {
+        "name": "планета электроники",
+        "id": "311909"
+      },
+      {
+        "name": "alser",
+        "id": "650"
+      },
+      {
+        "name": "техноgrad",
+        "id": "735"
+      },
+      {
+        "name": "приоль",
+        "id": "315610"
+      },
+      {
+        "name": "rino-kz",
+        "id": "331467"
+      },
+      {
+        "name": "smartlife",
+        "id": "294792"
+      },
+      {
+        "name": "mega network",
+        "id": "326043"
+      },
+      {
+        "name": "satel",
+        "id": "326751"
+      },
+      {
+        "name": "2people",
+        "id": "336061"
+      },
+      {
+        "name": "xiaomi store official",
+        "id": "312289"
+      },
+      {
+        "name": "kazit component",
+        "id": "1307"
+      },
+      {
+        "name": "ип абилкасим",
+        "id": "329314"
+      },
+      {
+        "name": "казахтелеком магазин",
+        "id": "70"
+      },
+      {
+        "name": "desiredmarket",
+        "id": "336829"
+      },
+      {
+        "name": "qpick",
+        "id": "335761"
+      },
+      {
+        "name": "telenova",
+        "id": "86"
+      },
+      {
+        "name": "ип master support",
+        "id": "334438"
+      },
+      {
+        "name": "redmart",
+        "id": "302"
+      },
+      {
+        "name": "leadbros",
+        "id": "329141"
+      }
+    ]
+  },
+  {
+    "categoryName": "Ноутбуки и компьютеры",
+    "categoryId": "1391",
+    "merchants": [
+      {
+        "name": "1kz",
+        "id": "746"
+      },
+      {
+        "name": "mega network",
+        "id": "326043"
+      },
+      {
+        "name": "rino-kz",
+        "id": "331467"
+      },
+      {
+        "name": "alser",
+        "id": "650"
+      },
+      {
+        "name": "smartlife",
+        "id": "294792"
+      },
+      {
+        "name": "планета электроники",
+        "id": "311909"
+      },
+      {
+        "name": "disti",
+        "id": "925"
+      },
+      {
+        "name": "satel",
+        "id": "326751"
+      },
+      {
+        "name": "realtech",
+        "id": "329329"
+      },
+      {
+        "name": "pulser",
+        "id": "164"
+      },
+      {
+        "name": "приоль",
+        "id": "315610"
+      },
+      {
+        "name": "казахтелеком магазин",
+        "id": "70"
+      },
+      {
+        "name": "printershop",
+        "id": "852"
+      },
+      {
+        "name": "kazit component",
+        "id": "1307"
+      },
+      {
+        "name": "qural-saiman",
+        "id": "718"
+      },
+      {
+        "name": "2people",
+        "id": "336061"
+      },
+      {
+        "name": "larek",
+        "id": "326437"
+      },
+      {
+        "name": "qpick",
+        "id": "335761"
+      },
+      {
+        "name": "desiredmarket",
+        "id": "336829"
+      },
+      {
+        "name": "xiaomi store official",
+        "id": "312289"
+      },
+      {
+        "name": "1 price",
+        "id": "328924"
+      },
+      {
+        "name": "tnp trade",
+        "id": "328678"
+      },
+      {
+        "name": "tehnicom",
+        "id": "1273"
+      },
+      {
+        "name": "ip technologies",
+        "id": "327099"
+      },
+      {
+        "name": "over",
+        "id": "991"
+      },
+      {
+        "name": "ezpc",
+        "id": "334777"
+      },
+      {
+        "name": "gamebox",
+        "id": "139155"
+      },
+      {
+        "name": "case j5",
+        "id": "326784"
+      }
+    ]
+  },
+  {
+    "categoryName": "Зоотовары",
+    "categoryId": "3299",
+    "merchants": [
+      {
+        "name": "brandcube",
+        "id": "338629"
+      },
+      {
+        "name": "1kz",
+        "id": "746"
+      }
+    ]
+  },
+  {
+    "categoryName": "Красота и уход",
+    "categoryId": "414",
+    "merchants": [
+      {
+        "name": "jt global",
+        "id": "336135"
+      },
+      {
+        "name": "orchestra",
+        "id": "325551"
+      }
+    ]
+  },
+  {
+    "categoryName": "Автотовары",
+    "categoryId": "269",
+    "merchants": [
+      {
+        "name": "центр багажных систем",
+        "id": "507"
+      },
+      {
+        "name": "1kz",
+        "id": "746"
+      },
+      {
+        "name": "tuningoff",
+        "id": "332215"
+      },
+      {
+        "name": "avtozvuk_almaty",
+        "id": "1420"
+      },
+      {
+        "name": "ams",
+        "id": "205590"
+      },
+      {
+        "name": "udm",
+        "id": "469"
+      },
+      {
+        "name": "alser",
+        "id": "650"
+      },
+      {
+        "name": "formula 7",
+        "id": "326300"
+      },
+      {
+        "name": "фирменный центр starline",
+        "id": "1499"
+      },
+      {
+        "name": "бакорда",
+        "id": "329404"
+      }
+    ]
+  },
+  {
+    "categoryName": "Мебель",
+    "categoryId": "787",
+    "merchants": [
+      {
+        "name": "promatras",
+        "id": "247861"
+      },
+      {
+        "name": "седьмое небо technology",
+        "id": "121"
+      },
+      {
+        "name": "idc_market",
+        "id": "312397"
+      },
+      {
+        "name": "bedmarket",
+        "id": "114347"
+      },
+      {
+        "name": "vidmebel",
+        "id": "204973"
+      },
+      {
+        "name": "1kz",
+        "id": "746"
+      },
+      {
+        "name": "vegas",
+        "id": "306019"
+      },
+      {
+        "name": "qural-saiman",
+        "id": "718"
+      },
+      {
+        "name": "идеальный дом",
+        "id": "2805"
+      },
+      {
+        "name": "в дом и сад",
+        "id": "1576"
+      },
+      {
+        "name": "techcomfort",
+        "id": "304965"
+      },
+      {
+        "name": "уют",
+        "id": "1714"
+      },
+      {
+        "name": "jihaz hub",
+        "id": "327032"
+      },
+      {
+        "name": "for_people",
+        "id": "295037"
+      },
+      {
+        "name": "jmd",
+        "id": "313540"
+      }
+    ]
+  },
+  {
+    "categoryName": "Канцелярия",
+    "categoryId": "3194",
+    "merchants": [
+      {
+        "name": "",
+        "id": ""
+      },
+      {
+        "name": "casio g-factory",
+        "id": "332877"
+      },
+      {
+        "name": "торговый дом тиын",
+        "id": "1917"
+      },
+      {
+        "name": "qural-saiman",
+        "id": "718"
+      },
+      {
+        "name": "1kz",
+        "id": "746"
+      },
+      {
+        "name": "altor",
+        "id": "305569"
+      }
+    ]
+  },
+  {
+    "categoryName": "Книги, мультимедиа, хобби",
+    "categoryId": "273",
+    "merchants": [
+      {
+        "name": "планета игр",
+        "id": "339784"
+      },
+      {
+        "name": "kitapal",
+        "id": "314732"
+      },
+      {
+        "name": "мир увлечений ",
+        "id": "331798"
+      }
+    ]
+  },
+  {
+    "categoryName": "Медицина и здоровье",
+    "categoryId": "46413",
+    "merchants": [
+      {
+        "name": "jt global",
+        "id": "336135"
+      },
+      {
+        "name": "медсервис",
+        "id": "329681"
+      },
+      {
+        "name": "uyatemes",
+        "id": "332194"
+      }
+    ]
+  }
 ]
