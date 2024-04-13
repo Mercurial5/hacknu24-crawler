@@ -1,6 +1,6 @@
 [
   {
-    "categoryName": "Home equipment",
+    "categoryName": "Дом и сад",
     "categoryId": "Home equipment",
     "merchants": [
       {
@@ -94,7 +94,7 @@
     ]
   },
   {
-    "categoryName": "Pharmacy",
+    "categoryName": "Медицина и здоровье",
     "categoryId": "Pharmacy",
     "merchants": [
       {
@@ -112,7 +112,7 @@
     ]
   },
   {
-    "categoryName": "Leisure",
+    "categoryName": "Книги, мультимедиа, хобби",
     "categoryId": "Leisure",
     "merchants": [
       {
@@ -130,7 +130,7 @@
     ]
   },
   {
-    "categoryName": "Car goods",
+    "categoryName": "Автотовары",
     "categoryId": "Car goods",
     "merchants": [
       {
@@ -176,7 +176,7 @@
     ]
   },
   {
-    "categoryName": "Fashion",
+    "categoryName": "Красота и уход",
     "categoryId": "Fashion",
     "merchants": [
       {
@@ -190,7 +190,7 @@
     ]
   },
   {
-    "categoryName": "Pet goods",
+    "categoryName": "Зоотовары",
     "categoryId": "Pet goods",
     "merchants": [
       {
@@ -204,7 +204,7 @@
     ]
   },
   {
-    "categoryName": "Gifts and party supplies",
+    "categoryName": "Подарки, товары для праздников",
     "categoryId": "Gifts and party supplies",
     "merchants": [
       {
@@ -214,7 +214,7 @@
     ]
   },
   {
-    "categoryName": "Office and school supplies",
+    "categoryName": "Канцелярия",
     "categoryId": "Office and school supplies",
     "merchants": [
       {
