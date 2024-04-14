@@ -1,4 +1,4 @@
-from sqlalchemy import Column, BigInteger, ForeignKey, SmallInteger, DATETIME
+from sqlalchemy import Column, BigInteger, ForeignKey, SmallInteger, DATETIME, String
 
 from db.models.base import Base
 
@@ -11,4 +11,5 @@ class Offer(Base):
     shop_id = Column(ForeignKey('shop.id'), nullable=False)
     bank_id = Column(ForeignKey('bank.id'), nullable=False)
     bonus = Column(SmallInteger, nullable=False)
+    period = Column(String(255), nullable=True)
     updated_at = Column(DATETIME)

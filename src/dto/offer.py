@@ -7,4 +7,5 @@ class OfferDTO:
     shop: str
     bank: str
     bonus: int
+    period: str
     conditions: list[str] = field(default_factory=list)
