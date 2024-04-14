@@ -24,17 +24,17 @@ def main():
     with open('rules/jusan.json') as file:
         jusan_rules = json.load(file)
 
-    kaspi_crawler = KaspiCrawler()
-    for offer in kaspi_crawler.get_offers(kaspi_rules):
-        offer_repository.create_or_update_offer(offer)
+    # kaspi_crawler = KaspiCrawler()
+    # for offer in kaspi_crawler.get_offers(kaspi_rules):
+    #     offer_repository.create_or_update_offer(offer)
 
     halyk_crawler = HalykCrawler()
     for offer in halyk_crawler.get_offers(halyk_rules):
         offer_repository.create_or_update_offer(offer)
 
-    jusan_crawler = JusanCrawler()
-    for offer in jusan_crawler.get_offers(jusan_rules):
-        offer_repository.create_or_update_offer(offer)
+    # jusan_crawler = JusanCrawler()
+    # for offer in jusan_crawler.get_offers(jusan_rules):
+    #     offer_repository.create_or_update_offer(offer)
 
 
 if __name__ == '__main__':

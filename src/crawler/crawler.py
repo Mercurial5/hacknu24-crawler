@@ -19,7 +19,7 @@ class Crawler(ABC):
                     yield self._create_offer(rule['categoryName'], merchant['name'], discount)
 
     @abstractmethod
-    def _get_discount(self, category: str, merchant: str) -> int | None:
+    def _get_discount(self, category: str, *args) -> int | None:
         raise NotImplementedError
 
     @abstractmethod

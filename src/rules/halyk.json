@@ -1,12 +1,42 @@
 [
     {
-        "categoryName": "Техника",
-        "categoryId": "1",
-        "merchants": [
-            {
-                "name": "Алсер",
-                "id": "ALSER.kz"
-            }
-        ]
+        "categoryName": "Супер маркет",
+        "categoryId": "supermarketi"
+    },
+    {
+        "categoryName": "АЗС и СТО",
+        "categoryId": "azs"
+    },
+    {
+        "categoryName": "Рестораны и кафе",
+        "categoryId": "restorani_kafe"
+    },
+    {
+        "categoryName": "Одежда, обувь, аксессуары",
+        "categoryId": "odezhda_obuv_aksessuari"
+    },
+    {
+        "categoryName": "Детский мир",
+        "categoryId": "detskie_tovari"
+    },
+    {
+        "categoryName": "Медицина и здоровье",
+        "categoryId": "zdorove"
+    },
+    {
+        "categoryName": "Спорт",
+        "categoryId": "sport"
+    },
+    {
+        "categoryName": "Автотовары",
+        "categoryId": "avtotovari"
+    },
+    {
+        "categoryName": "Зоотовары",
+        "categoryId": "vetkliniki_i_zoomagazini"
+    },
+    {
+        "categoryName": "Книги, мультимедиа, хобби",
+        "categoryId": "razvlechenie"
     }
 ]
